@@ -140,4 +140,91 @@ body {
 #team .container .team .points .color {
   background-color: #EF6D58;
   border: 1px solid #EF6D58;
+}
+
+.founderwords {
+  background-color: #28293E;
+}
+.founderwords .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #28293E;
+  column-gap: 120px;
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+.founderwords .container .founderwordsleft #rendelanimg {
+  margin-left: 55px;
+  width: 447px;
+  height: 420px;
+}
+.founderwords .container .founderwordsright {
+  position: relative;
+}
+.founderwords .container .founderwordsright #mark {
+  position: absolute;
+  left: 340px;
+}
+.founderwords .container .founderwordsright #founderwords {
+  font-family: "Epilogue", sans-serif;
+  font-style: normal;
+  color: #EF6D58;
+}
+.founderwords .container .founderwordsright #digitalagency {
+  flex-wrap: wrap;
+  font-family: "Epilogue", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  position: relative;
+}
+.founderwords .container .founderwordsright #rendelan {
+  font-family: "Epilogue", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.founderwords .container .founderwordsright #founder {
+  font-family: "Epilogue", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  .founderwords .container {
+    flex-direction: column;
+  }
+  .founderwords .container .founderwordsleft #rendelanimg {
+    width: 280.32px;
+    height: 242.81px;
+  }
+  .founderwords .container .founderwordsright {
+    padding: 20px;
+    margin-left: 75px;
+  }
+  .founderwords .container .founderwordsright #digitalagency {
+    font-family: "Epilogue";
+    font-style: normal;
+    width: 320px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .founderwords .container .founderwordsright #rendelan {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .founderwords .container .founderwordsright #founderwords {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .founderwords .container .founderwordsright #mark {
+    left: 250px;
+  }
 }/*# sourceMappingURL=main.css.map */
