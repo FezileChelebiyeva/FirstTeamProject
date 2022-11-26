@@ -1,0 +1,118 @@
+#team {
+  background-color: $bg-color;
+  .container {
+    .team {
+      width: 100%;
+      padding: 100px 0;
+      .team-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .head-text {
+          width: 50%;
+          h5 {
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 16px;
+            margin: 0;
+            padding-top: 50px;
+            color: $text-color;
+          }
+          h2 {
+            font-size: 56px;
+            font-weight: 800;
+            color: $white-color;
+          }
+        }
+        .head-circle {
+          width: 50%;
+          @include flexBox(flex-end, flex-end);
+          column-gap: 16px;
+          .circle {
+            @include flexBox();
+            width: 48px;
+            height: 48px;
+            border: 1px solid rgba(255, 255, 255, 0.363);
+            border-radius: 50%;
+          }
+        }
+        @media only screen and (max-width: 992px) {
+          flex-direction: column;
+          align-items: center;
+          .team-header {
+            width: 100%;
+          }
+          .head-circle {
+            display: none;
+          }
+        }
+      }
+      .team-person {
+        margin-top: 64px;
+        width: 100%;
+        @include flexBox();
+        column-gap: 40px;
+        .card-team {
+          width: 25%;
+          .card-image {
+            text-align: center;
+            width: 100%;
+            border: 1px solid #464868;
+            border-radius: 6px;
+            display: flex;
+            justify-content: center;
+            img {
+              width: 100%;
+              padding: 50px 0 1px 0;
+            }
+            .roe {
+              padding-top: 145px;
+            }
+            .leo {
+              padding-top: 75px;
+            }
+            .bella {
+              padding-top: 115px;
+            }
+          }
+          h4 {
+            color: $white-color;
+            font-weight: 700;
+            font-size: 24px;
+          }
+          p {
+            font-size: 16px;
+            margin: -20px 0;
+            color: rgba(255, 255, 255, 0.64);
+          }
+        }
+        @media only screen and (max-width: 992px) {
+          flex-direction: column;
+          align-items: center;
+          row-gap: 60px;
+
+          .card-team {
+            width: 50%;
+          }
+        }
+      }
+      .points {
+        margin-top: 52px;
+        @include flexBox();
+        column-gap: 20px;
+        .point {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          border: 1px solid #4e4f6e;
+          background-color: transparent;
+        }
+        .color {
+          background-color: $text-color;
+          border: 1px solid $text-color;
+        }
+      }
+    }
+  }
+}
