@@ -42,10 +42,16 @@
           align-items: center;
           .team-header {
             width: 100%;
+            
           }
           .head-circle {
             display: none;
           }
+          .head-text {
+              h2 {
+                font-size: 40px;
+              }
+            }
         }
       }
       .team-person {
