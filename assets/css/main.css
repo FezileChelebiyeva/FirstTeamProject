@@ -67,6 +67,9 @@ body {
   #team .container .team .team-header .head-circle {
     display: none;
   }
+  #team .container .team .team-header .head-text h2 {
+    font-size: 40px;
+  }
 }
 #team .container .team .team-person {
   margin-top: 64px;
