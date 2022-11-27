@@ -16,37 +16,37 @@ body {
   padding: 0%;
 }
 
-header {
+section {
   background-color: #28293E;
 }
-header .all {
+section .all {
   text-align: center;
   height: 100%;
 }
-header .all p {
+section .all p {
   color: #EF6D58;
   padding: 10px;
 }
-header .all h1 {
+section .all h1 {
   color: #FFFFFF;
   margin-top: 10px;
   font-size: 56px;
 }
-header .all .cards {
+section .all .cards {
   margin-top: 64px;
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-header .all .cards .card {
+section .all .cards .card {
   border: 1px solid #3a3c56;
   width: 370px;
   height: 400px;
 }
-header .all .cards .card .up {
+section .all .cards .card .up {
   display: flex;
 }
-header .all .cards .card .up .num {
+section .all .cards .card .up .num {
   color: #FFFFFF;
   font-size: 72px;
   letter-spacing: -2px;
@@ -54,45 +54,45 @@ header .all .cards .card .up .num {
   margin-left: 40px;
   margin-top: 36px;
 }
-header .all .cards .card .up div {
+section .all .cards .card .up div {
   margin-left: 12px;
   margin-top: 41px;
 }
-header .all .cards .card .up div h4 {
+section .all .cards .card .up div h4 {
   color: #FFFFFF;
   font-size: 24px;
 }
-header .all .cards .card .up div .year {
+section .all .cards .card .up div .year {
   margin-left: -70px;
 }
-header .all .cards .card .time {
+section .all .cards .card .time {
   margin-left: -140px;
   margin-top: 20px;
   color: #FFFFFF;
   padding-bottom: 30px;
 }
-header .all .cards .card .down {
+section .all .cards .card .down {
   margin-top: 36px;
   border-top: 1px solid #3a3c56;
   text-align: left;
   width: 290px;
   margin: 0 auto;
 }
-header .all .cards .card .down h4 {
+section .all .cards .card .down h4 {
   color: #FFFFFF;
   margin-top: 40px;
   margin-left: 8px;
 }
-header .all .cards .card .down p.text {
+section .all .cards .card .down p.text {
   color: rgba(255, 255, 255, 0.64);
   margin-top: 10px;
   width: 290px;
 }
-header .all .cards .card .down .exp {
+section .all .cards .card .down .exp {
   color: #FFFFFF;
   margin-top: 20px;
 }
-header .all button {
+section .all button {
   width: 170px;
   height: 40;
   border-radius: 6px;
@@ -103,7 +103,7 @@ header .all button {
   color: #FFFFFF;
 }
 @media only screen and (max-width: 992px) {
-  header .cards {
+  section .cards {
     flex-direction: column;
     align-items: center;
   }
