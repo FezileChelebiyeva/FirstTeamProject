@@ -2,7 +2,7 @@
   margin: 0%;
   padding: 0%;
 }
-header {
+section {
   background-color: $bg-color;
   .all {
     text-align: center;
@@ -14,6 +14,7 @@ header {
     h1 {
       color: $white-color;
       margin-top: 10px;
+      font-size: 56px;
     }
     .cards {
       margin-top: 64px;
@@ -21,9 +22,9 @@ header {
       justify-content: center;
       gap: 30px;
       .card {
-        border: 1px solid rgba(255, 255, 255, 0.363);
+        border: 1px solid #3a3c56;
         width: 370px;
-        height: 420px;
+        height: 400px;
         .up {
           display: flex;
           .num {
@@ -54,23 +55,23 @@ header {
         }
         .down {
           margin-top: 36px;
-          border-top: 1px solid rgba(255, 255, 255, 0.363);
+          border-top: 1px solid #3a3c56;
           text-align: left;
+          width: 290px;
+          margin: 0 auto;
           h4 {
             color: $white-color;
             margin-top: 40px;
-            margin-left: 40px;
+            margin-left: 8px;
           }
           p.text {
-            color: rgba(255, 255, 255, 0.363);
+            color: rgba(255, 255, 255, 0.64);
             margin-top: 10px;
             width: 290px;
-            margin-left: 28px;
           }
           .exp {
             color: $white-color;
             margin-top: 20px;
-            margin-left: 30px;
           }
         }
       }
@@ -80,7 +81,7 @@ header {
       height: 40;
       border-radius: 6px;
       background-color: $bg-color;
-      border: 1px solid rgba(255, 255, 255, 0.363);
+      border: 1px solid rgba(255, 255, 255, 0.295743);
       margin-top: 44px;
       padding: 18px 30px;
       color: $white-color;
