@@ -30,6 +30,7 @@ header .all p {
 header .all h1 {
   color: #FFFFFF;
   margin-top: 10px;
+  font-size: 56px;
 }
 header .all .cards {
   margin-top: 64px;
@@ -38,9 +39,9 @@ header .all .cards {
   gap: 30px;
 }
 header .all .cards .card {
-  border: 1px solid rgba(255, 255, 255, 0.363);
+  border: 1px solid #3a3c56;
   width: 370px;
-  height: 420px;
+  height: 400px;
 }
 header .all .cards .card .up {
   display: flex;
@@ -72,31 +73,31 @@ header .all .cards .card .time {
 }
 header .all .cards .card .down {
   margin-top: 36px;
-  border-top: 1px solid rgba(255, 255, 255, 0.363);
+  border-top: 1px solid #3a3c56;
   text-align: left;
+  width: 290px;
+  margin: 0 auto;
 }
 header .all .cards .card .down h4 {
   color: #FFFFFF;
   margin-top: 40px;
-  margin-left: 40px;
+  margin-left: 8px;
 }
 header .all .cards .card .down p.text {
-  color: rgba(255, 255, 255, 0.363);
+  color: rgba(255, 255, 255, 0.64);
   margin-top: 10px;
   width: 290px;
-  margin-left: 28px;
 }
 header .all .cards .card .down .exp {
   color: #FFFFFF;
   margin-top: 20px;
-  margin-left: 30px;
 }
 header .all button {
   width: 170px;
   height: 40;
   border-radius: 6px;
   background-color: #28293E;
-  border: 1px solid rgba(255, 255, 255, 0.363);
+  border: 1px solid rgba(255, 255, 255, 0.295743);
   margin-top: 44px;
   padding: 18px 30px;
   color: #FFFFFF;
