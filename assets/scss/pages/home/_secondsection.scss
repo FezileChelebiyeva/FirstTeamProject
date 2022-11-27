@@ -20,6 +20,7 @@
             color: $text-color;
           }
           h2 {
+            margin-top: 20px;
             font-size: 56px;
             font-weight: 800;
             color: $white-color;
@@ -88,7 +89,7 @@
           }
           p {
             font-size: 16px;
-            margin: -20px 0;
+            margin: 20px 0;
             color: rgba(255, 255, 255, 0.64);
           }
         }

@@ -133,6 +133,7 @@ header .all button {
   color: #EF6D58;
 }
 #team .container .team .team-header .head-text h2 {
+  margin-top: 20px;
   font-size: 56px;
   font-weight: 800;
   color: #FFFFFF;
@@ -207,7 +208,7 @@ header .all button {
 }
 #team .container .team .team-person .card-team p {
   font-size: 16px;
-  margin: -20px 0;
+  margin: 20px 0;
   color: rgba(255, 255, 255, 0.64);
 }
 @media only screen and (max-width: 992px) {
