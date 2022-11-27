@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  background-color: $bg-color;
+  .all {
+    text-align: center;
+    height: 100%;
+    p {
+      color: $text-color;
+      padding: 10px;
+    }
+    h1 {
+      color: $white-color;
+      margin-top: 10px;
+    }
+    .cards {
+      margin-top: 64px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      .card {
+        border: 1px solid rgba(255, 255, 255, 0.363);
+        width: 370px;
+        height: 420px;
+        .up {
+          display: flex;
+          .num {
+            color: $white-color;
+            font-size: 72px;
+            letter-spacing: -2px;
+            align-content: center;
+            margin-left: 40px;
+            margin-top: 36px;
+          }
+          div {
+            margin-left: 12px;
+            margin-top: 41px;
+            h4 {
+              color: $white-color;
+              font-size: 24px;
+            }
+            .year {
+              margin-left: -70px;
+            }
+          }
+        }
+        .time {
+          margin-left: -140px;
+          margin-top: 20px;
+          color: $white-color;
+          padding-bottom: 30px;
+        }
+        .down {
+          margin-top: 36px;
+          border-top: 1px solid rgba(255, 255, 255, 0.363);
+          text-align: left;
+          h4 {
+            color: $white-color;
+            margin-top: 40px;
+            margin-left: 40px;
+          }
+          p.text {
+            color: rgba(255, 255, 255, 0.363);
+            margin-top: 10px;
+            width: 290px;
+            margin-left: 28px;
+          }
+          .exp {
+            color: $white-color;
+            margin-top: 20px;
+            margin-left: 30px;
+          }
+        }
+      }
+    }
+    button {
+      width: 170px;
+      height: 40;
+      border-radius: 6px;
+      background-color: $bg-color;
+      border: 1px solid rgba(255, 255, 255, 0.363);
+      margin-top: 44px;
+      padding: 18px 30px;
+      color: $white-color;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
