@@ -16,36 +16,37 @@ body {
   padding: 0%;
 }
 
-header {
+#first {
   background-color: #28293E;
 }
-header .all {
+#first .all {
   text-align: center;
   height: 100%;
 }
-header .all p {
+#first .all p {
   color: #EF6D58;
   padding: 10px;
 }
-header .all h1 {
+#first .all h1 {
   color: #FFFFFF;
   margin-top: 10px;
+  font-size: 56px;
 }
-header .all .cards {
+#first .all .cards {
   margin-top: 64px;
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-header .all .cards .card {
-  border: 1px solid rgba(255, 255, 255, 0.363);
+#first .all .cards .card {
+  border: 1px solid #3a3c56;
   width: 370px;
-  height: 420px;
+  height: 400px;
 }
-header .all .cards .card .up {
+#first .all .cards .card .up {
   display: flex;
 }
-header .all .cards .card .up .num {
+#first .all .cards .card .up .num {
   color: #FFFFFF;
   font-size: 72px;
   letter-spacing: -2px;
@@ -53,56 +54,56 @@ header .all .cards .card .up .num {
   margin-left: 40px;
   margin-top: 36px;
 }
-header .all .cards .card .up div {
+#first .all .cards .card .up div {
   margin-left: 12px;
   margin-top: 41px;
 }
-header .all .cards .card .up div h4 {
+#first .all .cards .card .up div h4 {
   color: #FFFFFF;
   font-size: 24px;
 }
-header .all .cards .card .up div .year {
+#first .all .cards .card .up div .year {
   margin-left: -70px;
 }
-header .all .cards .card .time {
+#first .all .cards .card .time {
   margin-left: -140px;
   margin-top: 20px;
   color: #FFFFFF;
   padding-bottom: 30px;
 }
-header .all .cards .card .down {
+#first .all .cards .card .down {
   margin-top: 36px;
-  border-top: 1px solid rgba(255, 255, 255, 0.363);
+  border-top: 1px solid #3a3c56;
   text-align: left;
+  width: 290px;
+  margin: 0 auto;
 }
-header .all .cards .card .down h4 {
+#first .all .cards .card .down h4 {
   color: #FFFFFF;
   margin-top: 40px;
-  margin-left: 40px;
+  margin-left: 8px;
 }
-header .all .cards .card .down p.text {
-  color: rgba(255, 255, 255, 0.363);
+#first .all .cards .card .down p.text {
+  color: rgba(255, 255, 255, 0.64);
   margin-top: 10px;
   width: 290px;
-  margin-left: 28px;
 }
-header .all .cards .card .down .exp {
+#first .all .cards .card .down .exp {
   color: #FFFFFF;
   margin-top: 20px;
-  margin-left: 30px;
 }
-header .all button {
+#first .all button {
   width: 170px;
   height: 40;
   border-radius: 6px;
   background-color: #28293E;
-  border: 1px solid rgba(255, 255, 255, 0.363);
+  border: 1px solid rgba(255, 255, 255, 0.295743);
   margin-top: 44px;
   padding: 18px 30px;
   color: #FFFFFF;
 }
 @media only screen and (max-width: 992px) {
-  header .cards {
+  #first .cards {
     flex-direction: column;
     align-items: center;
   }
