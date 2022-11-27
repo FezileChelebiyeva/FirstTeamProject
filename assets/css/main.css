@@ -11,6 +11,104 @@ body {
   padding: 0 5%;
 }
 
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#first {
+  background-color: #28293E;
+}
+#first .all {
+  text-align: center;
+  height: 100%;
+}
+#first .all p {
+  color: #EF6D58;
+  padding: 10px;
+}
+#first .all h1 {
+  color: #FFFFFF;
+  margin-top: 10px;
+  font-size: 56px;
+}
+#first .all .cards {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#first .all .cards .card {
+  border: 1px solid #3a3c56;
+  width: 370px;
+  height: 400px;
+}
+#first .all .cards .card .up {
+  display: flex;
+}
+#first .all .cards .card .up .num {
+  color: #FFFFFF;
+  font-size: 72px;
+  letter-spacing: -2px;
+  align-content: center;
+  margin-left: 40px;
+  margin-top: 36px;
+}
+#first .all .cards .card .up div {
+  margin-left: 12px;
+  margin-top: 41px;
+}
+#first .all .cards .card .up div h4 {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+#first .all .cards .card .up div .year {
+  margin-left: -70px;
+}
+#first .all .cards .card .time {
+  margin-left: -140px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+#first .all .cards .card .down {
+  margin-top: 36px;
+  border-top: 1px solid #3a3c56;
+  text-align: left;
+  width: 290px;
+  margin: 0 auto;
+}
+#first .all .cards .card .down h4 {
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-left: 8px;
+}
+#first .all .cards .card .down p.text {
+  color: rgba(255, 255, 255, 0.64);
+  margin-top: 10px;
+  width: 290px;
+}
+#first .all .cards .card .down .exp {
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+#first .all button {
+  width: 170px;
+  height: 40;
+  border-radius: 6px;
+  background-color: #28293E;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  margin-top: 44px;
+  padding: 18px 30px;
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 992px) {
+  #first .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 #team {
   background-color: #28293E;
 }
@@ -37,6 +135,7 @@ body {
   color: #EF6D58;
 }
 #team .container .team .team-header .head-text h2 {
+  margin-top: 20px;
   font-size: 56px;
   font-weight: 800;
   color: #FFFFFF;
@@ -86,7 +185,7 @@ body {
 #team .container .team .team-person .card-team .card-image {
   text-align: center;
   width: 100%;
-  border: 1px solid #3A3C56;
+  border: 1px solid #3a3c56;
   border-radius: 6px;
   display: flex;
   justify-content: center;
@@ -111,7 +210,7 @@ body {
 }
 #team .container .team .team-person .card-team p {
   font-size: 16px;
-  margin: -20px 0;
+  margin: 20px 0;
   color: rgba(255, 255, 255, 0.64);
 }
 @media only screen and (max-width: 992px) {
@@ -141,4 +240,92 @@ body {
 #team .container .team .points .color {
   background-color: #EF6D58;
   border: 1px solid #EF6D58;
+}
+
+.founderwords {
+  background-color: #28293E;
+}
+.founderwords .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #28293E;
+  column-gap: 120px;
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+.founderwords .container .founderwordsleft #rendelanimg {
+  margin-left: 55px;
+  width: 447px;
+  height: 420px;
+}
+.founderwords .container .founderwordsright {
+  position: relative;
+}
+.founderwords .container .founderwordsright #mark {
+  position: absolute;
+  left: 340px;
+}
+.founderwords .container .founderwordsright #founderwords {
+  font-family: "Epilogue", sans-serif;
+  font-style: normal;
+  color: #EF6D58;
+}
+.founderwords .container .founderwordsright #digitalagency {
+  flex-wrap: wrap;
+  font-family: "Epilogue", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  position: relative;
+}
+.founderwords .container .founderwordsright #rendelan {
+  font-family: "Epilogue", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.founderwords .container .founderwordsright #founder {
+  font-family: "Epilogue", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  .founderwords .container {
+    row-gap: 50px;
+    flex-direction: column;
+  }
+  .founderwords .container .founderwordsleft #rendelanimg {
+    width: 280.32px;
+    height: 242.81px;
+  }
+  .founderwords .container .founderwordsright {
+    padding: 20px;
+    margin-left: 75px;
+  }
+  .founderwords .container .founderwordsright #digitalagency {
+    font-family: "Epilogue";
+    font-style: normal;
+    width: 320px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .founderwords .container .founderwordsright #rendelan {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .founderwords .container .founderwordsright #founderwords {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .founderwords .container .founderwordsright #mark {
+    left: 250px;
+  }
 }/*# sourceMappingURL=main.css.map */
