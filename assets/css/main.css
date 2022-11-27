@@ -11,6 +11,103 @@ body {
   padding: 0 5%;
 }
 
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-color: #28293E;
+}
+header .all {
+  text-align: center;
+  height: 100%;
+}
+header .all p {
+  color: #EF6D58;
+  padding: 10px;
+}
+header .all h1 {
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+header .all .cards {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+header .all .cards .card {
+  border: 1px solid rgba(255, 255, 255, 0.363);
+  width: 370px;
+  height: 420px;
+}
+header .all .cards .card .up {
+  display: flex;
+}
+header .all .cards .card .up .num {
+  color: #FFFFFF;
+  font-size: 72px;
+  letter-spacing: -2px;
+  align-content: center;
+  margin-left: 40px;
+  margin-top: 36px;
+}
+header .all .cards .card .up div {
+  margin-left: 12px;
+  margin-top: 41px;
+}
+header .all .cards .card .up div h4 {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+header .all .cards .card .up div .year {
+  margin-left: -70px;
+}
+header .all .cards .card .time {
+  margin-left: -140px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+header .all .cards .card .down {
+  margin-top: 36px;
+  border-top: 1px solid rgba(255, 255, 255, 0.363);
+  text-align: left;
+}
+header .all .cards .card .down h4 {
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+header .all .cards .card .down p.text {
+  color: rgba(255, 255, 255, 0.363);
+  margin-top: 10px;
+  width: 290px;
+  margin-left: 28px;
+}
+header .all .cards .card .down .exp {
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+header .all button {
+  width: 170px;
+  height: 40;
+  border-radius: 6px;
+  background-color: #28293E;
+  border: 1px solid rgba(255, 255, 255, 0.363);
+  margin-top: 44px;
+  padding: 18px 30px;
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 992px) {
+  header .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 #team {
   background-color: #28293E;
 }
@@ -85,7 +182,7 @@ body {
 #team .container .team .team-person .card-team .card-image {
   text-align: center;
   width: 100%;
-  border: 1px solid #3A3C56;
+  border: 1px solid #3a3c56;
   border-radius: 6px;
   display: flex;
   justify-content: center;
