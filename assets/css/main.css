@@ -16,37 +16,37 @@ body {
   padding: 0%;
 }
 
-section {
+#first {
   background-color: #28293E;
 }
-section .all {
+#first .all {
   text-align: center;
   height: 100%;
 }
-section .all p {
+#first .all p {
   color: #EF6D58;
   padding: 10px;
 }
-section .all h1 {
+#first .all h1 {
   color: #FFFFFF;
   margin-top: 10px;
   font-size: 56px;
 }
-section .all .cards {
+#first .all .cards {
   margin-top: 64px;
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-section .all .cards .card {
+#first .all .cards .card {
   border: 1px solid #3a3c56;
   width: 370px;
   height: 400px;
 }
-section .all .cards .card .up {
+#first .all .cards .card .up {
   display: flex;
 }
-section .all .cards .card .up .num {
+#first .all .cards .card .up .num {
   color: #FFFFFF;
   font-size: 72px;
   letter-spacing: -2px;
@@ -54,45 +54,45 @@ section .all .cards .card .up .num {
   margin-left: 40px;
   margin-top: 36px;
 }
-section .all .cards .card .up div {
+#first .all .cards .card .up div {
   margin-left: 12px;
   margin-top: 41px;
 }
-section .all .cards .card .up div h4 {
+#first .all .cards .card .up div h4 {
   color: #FFFFFF;
   font-size: 24px;
 }
-section .all .cards .card .up div .year {
+#first .all .cards .card .up div .year {
   margin-left: -70px;
 }
-section .all .cards .card .time {
+#first .all .cards .card .time {
   margin-left: -140px;
   margin-top: 20px;
   color: #FFFFFF;
   padding-bottom: 30px;
 }
-section .all .cards .card .down {
+#first .all .cards .card .down {
   margin-top: 36px;
   border-top: 1px solid #3a3c56;
   text-align: left;
   width: 290px;
   margin: 0 auto;
 }
-section .all .cards .card .down h4 {
+#first .all .cards .card .down h4 {
   color: #FFFFFF;
   margin-top: 40px;
   margin-left: 8px;
 }
-section .all .cards .card .down p.text {
+#first .all .cards .card .down p.text {
   color: rgba(255, 255, 255, 0.64);
   margin-top: 10px;
   width: 290px;
 }
-section .all .cards .card .down .exp {
+#first .all .cards .card .down .exp {
   color: #FFFFFF;
   margin-top: 20px;
 }
-section .all button {
+#first .all button {
   width: 170px;
   height: 40;
   border-radius: 6px;
@@ -103,7 +103,7 @@ section .all button {
   color: #FFFFFF;
 }
 @media only screen and (max-width: 992px) {
-  section .cards {
+  #first .cards {
     flex-direction: column;
     align-items: center;
   }
